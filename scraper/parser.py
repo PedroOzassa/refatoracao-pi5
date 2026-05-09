@@ -39,7 +39,7 @@ def parse_site(url: str) -> list[dict]:
                     "content": " ".join(current_content),
                     "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     "tag": tag.name,
-                    "url": url
+                    "source": url
                 })
             current_title = text
             current_content = []
@@ -55,7 +55,7 @@ def parse_site(url: str) -> list[dict]:
             "content": " ".join(current_content),
             "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "tag": tag.name,
-            "url": url
+            "source": url
         })
 
     return sections

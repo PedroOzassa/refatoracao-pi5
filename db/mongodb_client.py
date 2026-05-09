@@ -6,7 +6,7 @@ Schema:
     - content (str)
     - date    (datetime)
     - tag     (str | list[str])
-    - url     (str)
+    - source     (str)
 """
 
 from __future__ import annotations
@@ -109,9 +109,9 @@ class MongoDBClient:
     # ------------------------------------------------------------------
 
 
-    def find_by_url(self, collection: str, url: str) -> Optional[Document]:
-        """Return the Document with a specific URL (expected to be unique)."""
-        doc = self._collection(collection).find_one({"url": url})
+    def find_by_source(self, collection: str, source: str) -> Optional[Document]:
+        """Return the Document with a specific source (expected to be unique)."""
+        doc = self._collection(collection).find_one({"source": source})
         return Document.from_dict(doc) if doc else None
 
     def find_all(
