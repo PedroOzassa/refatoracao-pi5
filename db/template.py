@@ -8,8 +8,8 @@ class Document:
     title: str
     content: str
     date: datetime
-    tag: list[str]
     source: str
+    tag: Optional[list[str]] = field(default=None)
     _id: Optional[ObjectId] = field(default=None, repr=False)
 
     def to_dict(self) -> dict:
@@ -17,9 +17,10 @@ class Document:
             "title": self.title,
             "content": self.content,
             "date": self.date,
-            "tag": self.tag if isinstance(self.tag, list) else [self.tag],
             "source": self.source,
         }
+        if self.tag is not None:
+            doc["tag"] = self.tag if isinstance(self.tag, list) else [self.tag]
         if self._id is not None:
             doc["_id"] = self._id
         return doc
@@ -30,7 +31,7 @@ class Document:
             title=data["title"],
             content=data["content"],
             date=data["date"],
-            tag=data.get("tag", []),
             source=data["source"],
+            tag=data.get("tag"), 
             _id=data.get("_id"),
         )
