@@ -8,6 +8,7 @@ def crawl(start_url: str) -> set[str]:
     visited = set()
     queue = deque([start_url])
     domain = urlparse(start_url).netloc
+    successful_urls = set()
 
     while queue:
         url = queue.popleft()
@@ -22,6 +23,8 @@ def crawl(start_url: str) -> set[str]:
 
             if response.status_code != 200:
                 continue
+
+            successful_urls.add(url)
 
             soup = BeautifulSoup(response.text, "html.parser")
 
@@ -38,7 +41,7 @@ def crawl(start_url: str) -> set[str]:
         except Exception as e:
             print(f"Erro em {url}: {e}")
 
-    return visited
+    return successful_urls
 
 
 if __name__ == "__main__":

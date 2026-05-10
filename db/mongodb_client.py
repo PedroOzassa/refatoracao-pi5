@@ -20,7 +20,7 @@ from bson import ObjectId
 from pymongo import MongoClient, ASCENDING, DESCENDING
 from pymongo.collection import Collection
 from pymongo.errors import DuplicateKeyError, PyMongoError
-from template import Document
+from .template import Document
 
 class MongoDBClient:
     """
@@ -29,7 +29,6 @@ class MongoDBClient:
 
     Usage:
         client = MongoDBClient()                          # reads MONGODB_URI env var
-        client = MongoDBClient(uri="mongodb+srv://...")   # explicit URI
 
         with MongoDBClient() as client:
             client.insert_one("Documents", Document)
@@ -37,10 +36,9 @@ class MongoDBClient:
 
     def __init__(
         self,
-        uri: Optional[str] = None,
         database: str = "mydb",
     ) -> None:
-        self._uri = uri or os.environ.get("MONGODB_URI")
+        self._uri = os.environ.get("MONGODB_URI")
         if not self._uri:
             raise ValueError(
                 "No MongoDB URI provided. "
