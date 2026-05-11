@@ -4,17 +4,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-MISTRAL_HOST = os.getenv("MISTRAL_HOST_URL")
+OLLAMA_URL = os.getenv("OLLAMA_URL")
 
 def chamar_mistral(prompt: str) -> str:
     response = requests.post(
-        MISTRAL_HOST,
+        OLLAMA_URL,
         json={
-            "model": "mistral:7b",
+            "model": "mistral:instruct",
             "prompt": prompt,
             "stream": False
         }
     )
-
 
     return response.json()["response"]
