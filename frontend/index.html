@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot AGI</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: url('image.png') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Botão flutuante */
+    .chat-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      font-size: 28px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(30, 136, 229, 0.4);
+      transition: all 0.3s ease;
+      z-index: 999;
+    }
+
+    .chat-button:hover {
+      transform: scale(1.1);
+      box-shadow: 0 6px 16px rgba(30, 136, 229, 0.6);
+    }
+
+    .chat-button:active {
+      transform: scale(0.95);
+    }
+
+    /* Container do chat */
+    .chat-container {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 380px;
+      height: 500px;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 5px 40px rgba(0, 0, 0, 0.16);
+      display: none;
+      flex-direction: column;
+      overflow: hidden;
+      z-index: 1000;
+    }
+
+    .chat-container.open {
+      display: flex;
+    }
+
+    /* Header */
+    .chat-header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    /* Mensagens */
+    .messages-container {
+      flex: 1;
+      overflow-y: auto;
+      padding: 15px;
+      background-color: #fafafa;
+      scroll-behavior: smooth;
+    }
+
+    .message {
+      display: flex;
+      margin-bottom: 12px;
+      animation: slideIn 0.2s ease-out;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(5px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .message.user {
+      justify-content: flex-end;
+    }
+
+    .message.bot {
+      justify-content: flex-start;
+    }
+
+    .message-content {
+      max-width: 75%;
+      padding: 8px 12px;
+      border-radius: 8px;
+      word-wrap: break-word;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .message.user .message-content {
+      background-color: #1e88e5;
+      color: white;
+    }
+
+    .message.bot .message-content {
+      background-color: #e3f2fd;
+      color: #333;
+    }
+
+    .typing-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #999;
+      display: inline-block;
+      margin: 0 2px;
+      animation: typing 1.4s infinite;
+    }
+
+    .typing-dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .typing-dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
+    @keyframes typing {
+      0%, 60%, 100% {
+        opacity: 0.5;
+      }
+      30% {
+        opacity: 1;
+      }
+    }
+
+    /* Input */
+    .input-container {
+      padding: 12px;
+      background: white;
+      border-top: 1px solid #e0e0e0;
+      display: flex;
+      gap: 8px;
+    }
+
+    .input-container input {
+      flex: 1;
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+      transition: all 0.2s ease;
+    }
+
+    .input-container input:focus {
+      border-color: #1e88e5;
+      box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.1);
+    }
+
+    .send-button {
+      width: 36px;
+      height: 36px;
+      padding: 0;
+      background-color: #1e88e5;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.2s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .send-button:hover:not(:disabled) {
+      background-color: #1565c0;
+    }
+
+    .send-button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* Scroll */
+    .messages-container::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .messages-container::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    .messages-container::-webkit-scrollbar-thumb {
+      background: #bbb;
+      border-radius: 3px;
+    }
+
+    .messages-container::-webkit-scrollbar-thumb:hover {
+      background: #888;
+    }
+
+    @media (max-width: 480px) {
+      .chat-container {
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        border-radius: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Botão flutuante -->
+  <button class="chat-button" id="chatButton" onclick="toggleChat()">💬</button>
+
+  <!-- Chat -->
+  <div class="chat-container" id="chatContainer">
+    <div class="chat-header">Atendimento</div>
+
+    <div class="messages-container" id="messagesContainer">
+      <div class="message bot">
+        <div class="message-content">Olá! Como posso te ajudar?</div>
+      </div>
+    </div>
+
+    <div class="input-container">
+      <input 
+        type="text" 
+        id="messageInput" 
+        placeholder="Digite sua mensagem..." 
+        autocomplete="off"
+      />
+      <button class="send-button" id="sendButton">📤</button>
+    </div>
+  </div>
+
+  <script>
+    const API_BASE_URL = 'http://localhost:8000';
+    const chatButton = document.getElementById('chatButton');
+    const chatContainer = document.getElementById('chatContainer');
+    const messagesContainer = document.getElementById('messagesContainer');
+    const messageInput = document.getElementById('messageInput');
+    const sendButton = document.getElementById('sendButton');
+
+    let isLoading = false;
+
+    // Toggle chat
+    function toggleChat() {
+      chatContainer.classList.toggle('open');
+      if (chatContainer.classList.contains('open')) {
+        messageInput.focus();
+      }
+    }
+
+    // Send message on button click
+    sendButton.addEventListener('click', sendMessage);
+
+    // Send message on Enter key
+    messageInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter' && !isLoading) {
+        sendMessage();
+      }
+    });
+
+    function scrollToBottom() {
+      messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
+    function addMessage(content, isUser = false) {
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+
+      const contentDiv = document.createElement('div');
+      contentDiv.className = 'message-content';
+      contentDiv.innerText = content;
+
+      messageDiv.appendChild(contentDiv);
+      messagesContainer.appendChild(messageDiv);
+      scrollToBottom();
+    }
+
+    function addTypingIndicator() {
+      const messageDiv = document.createElement('div');
+      messageDiv.className = 'message bot';
+      messageDiv.id = 'typingIndicator';
+
+      const contentDiv = document.createElement('div');
+      contentDiv.className = 'message-content';
+      
+      for (let i = 0; i < 3; i++) {
+        const dot = document.createElement('span');
+        dot.className = 'typing-dot';
+        contentDiv.appendChild(dot);
+      }
+
+      messageDiv.appendChild(contentDiv);
+      messagesContainer.appendChild(messageDiv);
+      scrollToBottom();
+    }
+
+    function removeTypingIndicator() {
+      const indicator = document.getElementById('typingIndicator');
+      if (indicator) {
+        indicator.remove();
+      }
+    }
+
+    async function sendMessage() {
+      const text = messageInput.value.trim();
+
+      if (!text) return;
+      if (isLoading) return;
+
+      // Add user message
+      addMessage(text, true);
+      messageInput.value = '';
+
+      isLoading = true;
+      sendButton.disabled = true;
+      messageInput.disabled = true;
+
+      addTypingIndicator();
+
+      try {
+        const response = await fetch(`${API_BASE_URL}/api/chat`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ question: text }),
+        });
+
+        removeTypingIndicator();
+
+        if (!response.ok) {
+          throw new Error(`Erro ${response.status}`);
+        }
+
+        const data = await response.json();
+        addMessage(data.answer, false);
+
+      } catch (error) {
+        removeTypingIndicator();
+        console.error('Erro:', error);
+        addMessage('Desculpe, ocorreu um erro ao processar sua mensagem.', false);
+      } finally {
+        isLoading = false;
+        sendButton.disabled = false;
+        messageInput.disabled = false;
+        messageInput.focus();
+      }
+    }
+  </script>
+</body>
+</html>

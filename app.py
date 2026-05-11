@@ -1,10 +1,20 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from llm.chat_service import responder
 from embedding.find_context import find_context
 
 app = FastAPI(title="Chatbot Agi API", version="0.1.0")
+
+# Configure CORS to allow requests from frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get("/health")
