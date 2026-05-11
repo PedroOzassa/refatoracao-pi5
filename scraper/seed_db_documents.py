@@ -1,14 +1,8 @@
-#!/usr/bin/env python3
-"""
-One-off ingestion script for loading documents.json and scraped site data into MongoDB.
-"""
-
 import json
 from datetime import datetime
 from pathlib import Path
 
 from dotenv import load_dotenv
-
 load_dotenv()
 
 from db.mongodb_client import MongoDBClient
@@ -79,7 +73,7 @@ def load_scraped_documents(start_url: str) -> list[Document]:
     return documents
 
 
-def seed_documents() -> None:
+def seed_db_documents() -> None:
     base_path = Path(__file__).resolve().parents[1]
     json_documents = load_documents_from_json(str(base_path / "documents.json"))
     scraped_documents = load_scraped_documents("https://agibank.com.br/")

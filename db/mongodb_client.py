@@ -12,12 +12,10 @@ Schema:
 from __future__ import annotations
 
 import os
-from dataclasses import dataclass, field
-from datetime import datetime
 from typing import Optional
 
 from bson import ObjectId
-from pymongo import MongoClient, ASCENDING, DESCENDING
+from pymongo import MongoClient, DESCENDING
 from pymongo.collection import Collection
 from pymongo.errors import DuplicateKeyError, PyMongoError
 from .template import Document
@@ -114,19 +112,11 @@ class MongoDBClient:
 
     def find_all(
         self,
-        collection: str,
-        limit: int = 100,
-        skip: int = 0,
-        sort_by: str = "date",
-        sort_order: int = DESCENDING,
+        collection: str
     ) -> list[Document]:
         """Return Documents with optional pagination and sorting."""
         cursor = (
-            self._collection(collection)
-            .find()
-            .sort(sort_by, sort_order)
-            .skip(skip)
-            .limit(limit)
+            self._collection(collection).find()
         )
         return [Document.from_dict(d) for d in cursor]
 
