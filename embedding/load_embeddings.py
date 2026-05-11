@@ -29,7 +29,7 @@ def load_embeddings() -> None:
         documents = list(collection.find())
 
     if not documents:
-        print("Nenhum documento encontrado.")
+        print("No documents found")
         return
 
     embeddings = []
@@ -45,12 +45,13 @@ def load_embeddings() -> None:
         embeddings.append(embedding)
         mapping[valid_index] = {
             "mongo_id": str(doc["_id"]),
-            "titulo": doc.get("title", ""),
+            "title": doc.get("title", ""),
+            "content": doc.get("content", "")
         }
         valid_index += 1
 
     if not embeddings:
-        print("Nenhum embedding foi gerado. Verifique se os documentos tem o campo 'content'.")
+        print("No embedding created. Check collection content")
         return
 
     vectors = np.array(embeddings).astype("float32")

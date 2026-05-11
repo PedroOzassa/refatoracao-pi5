@@ -16,25 +16,22 @@ print("Índice carregado.")
 with open(MAPPING_FILE, "r", encoding="utf-8") as f:
     mapping = json.load(f)
 
-def search(query, top_k=3, threshold=0.2):
-    #TODO talvez mudar aq
+def find_context(query, top_k=3, threshold=0.2):
     # Prefixo recomendado pelo BGE
     query_text = (
         f"Represent this sentence for searching relevant passages: {query}"
     )
 
     query_embedding = model.encode(query_text)
-    print(query_embedding)
 
     query_embedding = np.array([query_embedding]).astype("float32")
-    print(query_embedding)
 
     faiss.normalize_L2(query_embedding)
 
     # Busca
     distances, indices = index.search(query_embedding, top_k)
 
-    results = []
+    context_texts = []
 
     for score, idx in zip(distances[0], indices[0]):
 
@@ -49,10 +46,9 @@ def search(query, top_k=3, threshold=0.2):
         if not mapped_data:
             continue
 
-        results.append({
-            "score": float(score),
-            "faiss_index": idx,
-            "mapping": mapped_data
-        })
+        title = mapped_data.get("title", "")
+        content = mapped_data.get("content", "")
 
-    return results
+        context_texts.append(title + "\n" + content)
+
+    return "\n\n".join(context_texts)
