@@ -49,7 +49,7 @@
     /* Container do chat */
     .chat-container {
       position: fixed;
-      bottom: 90px;
+      bottom: 20px;
       right: 20px;
       width: 380px;
       height: 500px;
@@ -74,6 +74,21 @@
       text-align: center;
       font-weight: 600;
       font-size: 16px;
+      position: relative;
+    }
+
+    .chat-close {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 4px 8px;
+      line-height: 1;
     }
 
     /* Mensagens */
@@ -241,7 +256,9 @@
 
   <!-- Chat -->
   <div class="chat-container" id="chatContainer">
-    <div class="chat-header">Atendimento</div>
+    <div class="chat-header">Atendimento
+      <button class="chat-close" id="chatClose" aria-label="Fechar chat" onclick="toggleChat()">✕</button>
+    </div>
 
     <div class="messages-container" id="messagesContainer">
       <div class="message bot">
@@ -275,6 +292,9 @@
       chatContainer.classList.toggle('open');
       if (chatContainer.classList.contains('open')) {
         messageInput.focus();
+        chatButton.style.display = 'none';
+      } else {
+        chatButton.style.display = 'block';
       }
     }
 
