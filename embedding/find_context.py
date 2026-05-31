@@ -16,7 +16,7 @@ print("Índice carregado.")
 with open(MAPPING_FILE, "r", encoding="utf-8") as f:
     mapping = json.load(f)
 
-def find_context(query, top_k=3, threshold=0.2):
+def find_context(query, top_k=3, threshold=0.45):
     # Prefixo recomendado pelo BGE
     query_text = (
         f"Represent this sentence for searching relevant passages: {query}"
@@ -33,6 +33,8 @@ def find_context(query, top_k=3, threshold=0.2):
 
     context_texts = []
 
+    
+
     for score, idx in zip(distances[0], indices[0]):
 
         if idx == -1:
@@ -40,8 +42,10 @@ def find_context(query, top_k=3, threshold=0.2):
 
         if score < threshold:
             continue
-
+        
+        print(f"Score: {score}, Index: {idx}")
         mapped_data = mapping.get(str(idx))
+
 
         if not mapped_data:
             continue

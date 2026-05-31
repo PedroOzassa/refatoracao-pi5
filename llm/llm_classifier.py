@@ -21,7 +21,7 @@ def parse_classification(response: str):
     return True
 
 
-def classificar_contexto(pergunta: str, contexto: str):
+def is_question_valid(pergunta: str, contexto: str):
     if not contexto or contexto.strip() == "":
         return {"answer": "no", "confidence": 1.0}
 
