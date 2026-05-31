@@ -35,8 +35,9 @@ def crawl(start_url: str) -> set[str]:
                 if parsed.netloc == domain:
                     clean_url = parsed.scheme + "://" + parsed.netloc + parsed.path
 
-                    if clean_url not in visited:
+                    if clean_url not in visited and clean_url not in queue:
                         queue.append(clean_url)
+                        print(f"Added to queue: {clean_url}")
 
         except Exception as e:
             print(f"Erro em {url}: {e}")

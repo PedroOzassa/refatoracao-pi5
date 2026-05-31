@@ -33,7 +33,7 @@ def find_context(query, top_k=3, threshold=0.45):
 
     context_texts = []
 
-    
+    print(f"Searching for context for query: {query}")
 
     for score, idx in zip(distances[0], indices[0]):
 

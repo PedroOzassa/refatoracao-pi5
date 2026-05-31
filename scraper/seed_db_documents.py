@@ -75,7 +75,7 @@ def load_scraped_documents(start_url: str) -> list[Document]:
 
 def seed_db_documents() -> None:
     base_path = Path(__file__).resolve().parents[1]
-    json_documents = load_documents_from_json(str(base_path / "documents.json"))
+    json_documents = load_documents_from_json(str(base_path / "faq_documents.json"))
     scraped_documents = load_scraped_documents("https://agibank.com.br/")
 
     with MongoDBClient(database="chatbot-data") as client:

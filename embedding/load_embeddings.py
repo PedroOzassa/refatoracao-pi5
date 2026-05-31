@@ -48,6 +48,7 @@ def load_embeddings() -> None:
             "title": doc.get("title", ""),
             "content": doc.get("content", "")
         }
+        print(f"Embedding created for document: {doc.get('title', 'No Title')}")
         valid_index += 1
 
     if not embeddings:
