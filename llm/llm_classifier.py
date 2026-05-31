@@ -1,7 +1,7 @@
 import json
 from llm.mistral_service import chamar_mistral
 
-def parse_classification(response: str):
+def parse_classification(response: str) -> bool:
     try:
         data = json.loads(response)
         answer = str(data.get("answer", "no")).strip().lower()
@@ -21,10 +21,7 @@ def parse_classification(response: str):
     return True
 
 
-def is_question_valid(pergunta: str, contexto: str):
-    if not contexto or contexto.strip() == "":
-        return {"answer": "no", "confidence": 1.0}
-
+def is_question_valid(pergunta: str, contexto: str) -> bool:
     prompt = f"""
 Você é um classificador de relevância para atendimento bancário.
 
@@ -32,9 +29,15 @@ Responda somente com JSON válido no formato:
 {{"answer":"yes"|"no","confidence":0.0-1.0}}
 
 Regras:
-- Responda "yes" se o contexto for suficiente para responder a pergunta com segurança.
-- Responda "no" se o contexto for insuficiente, incompleto ou não relacionado.
-- A confidence deve refletir sua certeza.
+
+Responda "yes" somente se:
+- a PERGUNTA for algo que um chatbot de um banco deveria responder, e;
+- o CONTEXTO possuir informação suficiente para respondê-la.
+
+Responda "no" somente se: 
+- o CONTEXTO for insuficiente, incompleto ou não relacionado.
+
+A confidence deve refletir sua certeza sobre a sua resposta.
 
 CONTEXTO:
 {contexto}
