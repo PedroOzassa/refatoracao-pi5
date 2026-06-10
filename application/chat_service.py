@@ -70,15 +70,15 @@ class ChatService:
             threshold=0.45
         )
 
-        # Step 2: Classify if question is relevant to context
-        is_relevant = self._classify_relevance(question, context)
+        # Step 2: If no context was found, return the standard fallback message.
+        # When context exists, always try to answer so a brittle classifier does
+        # not block a valid response.
+        if not context or not context.strip():
+            return self.NO_CONTEXT_MESSAGE, context
 
-        # Step 3: Generate answer if relevant, else return default message
-        if is_relevant:
-            prompt = self._build_prompt(question, context)
-            answer = self.llm_chain.generate(prompt)
-        else:
-            answer = self.NO_CONTEXT_MESSAGE
+        # Step 3: Generate answer using the retrieved context.
+        prompt = self._build_prompt(question, context)
+        answer = self.llm_chain.generate(prompt)
 
         return answer, context
 
