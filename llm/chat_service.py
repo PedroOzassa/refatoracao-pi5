@@ -1,12 +1,17 @@
 from llm.llm_classifier import is_question_valid
 from llm.mistral_service import chamar_mistral
+from llm.gpt_service import chamar_gpt
 from llm.prompt_builder import montar_prompt
+import requests
 
 def responder(pergunta: str, contexto: str) -> str:
     classificacao = is_question_valid(pergunta, contexto)
     if classificacao:
         prompt = montar_prompt(pergunta, contexto)
-        resposta = chamar_mistral(prompt)  
+        try:
+            resposta = chamar_mistral(prompt)
+        except (RuntimeError, requests.RequestException, ValueError, KeyError, IndexError):
+            resposta = chamar_gpt(prompt)
     else:
         resposta = (
     "Desculpe, não encontrei informações suficientes para responder à sua pergunta. "

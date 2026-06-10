@@ -1,591 +1,591 @@
 {
     "0": {
-        "mongo_id": "6a010f3880dc5e1985ae145d",
+        "mongo_id": "6a1cca8d47d754b1c31f8022",
         "title": "É Agi ou Agi Bank?",
         "content": "O Agi é uma plataforma digital que oferece diversos produtos e serviços aos seus clientes. O Agi Bank é o banco que faz parte da plataforma Agi e cuida da sua conta corrente, de cartão de crédito e débito, oferece empréstimos e muito mais."
     },
     "1": {
-        "mongo_id": "6a010f3880dc5e1985ae145e",
+        "mongo_id": "6a1cca8d47d754b1c31f8023",
         "title": "Como baixar o aplicativo?",
         "content": "Basta baixar o aplicativo você precisa ir até sua loja de aplicativos (Google Play ou App Store) e digitar Agibank. Em seguida, você clica em baixar e espera a instalação. Depois você preenche os dados que serão solicitados e pronto!"
     },
     "2": {
-        "mongo_id": "6a010f3880dc5e1985ae145f",
+        "mongo_id": "6a1cca8d47d754b1c31f8024",
         "title": "O Agi possui 2 aplicativos diferentes?",
         "content": "Sim! Além do aplicativo do Agi de conta corrente, existe o app Agi Investimentos, que é nossa plataforma de investimentos em parceria com a Órama."
     },
     "3": {
-        "mongo_id": "6a010f3880dc5e1985ae1460",
+        "mongo_id": "6a1cca8d47d754b1c31f8025",
         "title": "O que é a conta corrente Agi Bank?",
         "content": "É um novo jeito de você lidar com o dinheiro, muito mais ágil e prático. Sem filas, sem burocracia, sem tarifas ou taxas abusivas. Com o aplicativo do Agi você faz tudo pelo celular: paga, recebe, transfere, cobra e investe. Tudo isso com a segurança e solidez que só um banco pode oferecer. Diga adeus à porta giratória e à taxa de manutenção de conta."
     },
     "4": {
-        "mongo_id": "6a010f3880dc5e1985ae1461",
+        "mongo_id": "6a1cca8d47d754b1c31f8026",
         "title": "Quem pode ter uma conta no Agi?",
         "content": "A conta corrente Agi Bank é para todos. Aqui a gente se dedica todos os dias para proporcionar a melhor experiência financeira para os milhares de brasileiros que não se sentem representados pelo sistema financeiro atual, oferecendo produtos descomplicados, rápidos e acessíveis. Somos o banco da inclusão, que acredita em dar oportunidade para as pessoas crescerem e realizarem seus sonhos."
     },
     "5": {
-        "mongo_id": "6a010f3880dc5e1985ae1462",
+        "mongo_id": "6a1cca8d47d754b1c31f8027",
         "title": "Sou estrangeiro. Posso abrir uma conta corrente pelo aplicativo?",
         "content": "Estrangeiros domiciliados no país podem solicitar a abertura da conta sim! Você vai precisar apresentar alguns documentos solicitados pelo BACEN (Circular 3.691, resolução nº 4753), dentre eles a Cédula de Identidade de Estrangeiro (CIE) ou o protocolo de solicitação do documento dentro do prazo de validade."
     },
     "6": {
-        "mongo_id": "6a010f3880dc5e1985ae1463",
+        "mongo_id": "6a1cca8d47d754b1c31f8028",
         "title": "Como faço para abrir uma conta? Preciso ir até uma agência?",
         "content": "Para ter uma conta Agi Bank você não precisa sair de casa. Basta baixar o aplicativo na Google Play ou App Store, preencher as informações solicitadas e pronto! Seu pedido de abertura de conta estará feito."
     },
     "7": {
-        "mongo_id": "6a010f3880dc5e1985ae1464",
+        "mongo_id": "6a1cca8d47d754b1c31f8029",
         "title": "Quais são os documentos necessários para abertura de conta Pessoa Física?",
         "content": "Para abrir sua conta são necessárias foto frente e verso do seu documento de identificação e uma selfie sua."
     },
     "8": {
-        "mongo_id": "6a010f3880dc5e1985ae1465",
+        "mongo_id": "6a1cca8d47d754b1c31f802a",
         "title": "Para abrir uma conta, posso cadastrar o e-mail ou celular de outra pessoa?",
         "content": "Não. Como a conta digital do Agi Bank utiliza o seu celular e seu e-mail para diversas validações de segurança. Além disso, também usamos para enviar comunicações sobre o banco e sua conta. Por isso é preciso que estas informações sejam pessoais."
     },
     "9": {
-        "mongo_id": "6a010f3880dc5e1985ae1466",
+        "mongo_id": "6a1cca8d47d754b1c31f802b",
         "title": "Como tiro uma boa foto dos documentos para abertura de conta?",
         "content": "Coloque seus documentos sobre uma superfície lisa, em um local bem iluminado e tire quantas fotos forem necessárias. Centralize bem o documento na câmera do seu celular de acordo com o modelo exibido pelo aplicativo. É importante não usar o flash e não fazer sombra sobre o documento."
     },
     "10": {
-        "mongo_id": "6a010f3880dc5e1985ae1467",
+        "mongo_id": "6a1cca8d47d754b1c31f802c",
         "title": "O que pode impedir a abertura de uma conta corrente pelo aplicativo?",
         "content": "Todo e qualquer dado que falte, desde que seja obrigatório para o cadastro, impedirá a abertura de sua conta. Alguns deles são a falta da documentação, dados inválidos, documentação ilegível, falta de selfie e baixa qualidade das fotos (documentos e selfie). Abri minha conta e meu cartão ainda não chegou, já posso pedir para"
     },
     "11": {
-        "mongo_id": "6a010f3880dc5e1985ae1468",
+        "mongo_id": "6a1cca8d47d754b1c31f802d",
         "title": "receber meu salário pelo Agi Bank?",
         "content": "Sim. Enquanto seu cartão não chega, você pode sacar dinheiro em qualquer lotérica e usar as demais funcionalidades do aplicativo, como TED, Pix e pagamento de boletos."
     },
     "12": {
-        "mongo_id": "6a010f3880dc5e1985ae1469",
+        "mongo_id": "6a1cca8d47d754b1c31f802e",
         "title": "Como faço para ativar minha conta no internet banking?",
         "content": "É bem simples! Acesse o internet banking do Agi (www.agi.com.br). Em seguida você deve selecionar “Acessar sua conta” e depois em “Quero me cadastrar”. Preencha os dados solicitados e ative sua conta."
     },
     "13": {
-        "mongo_id": "6a010f3880dc5e1985ae146a",
+        "mongo_id": "6a1cca8d47d754b1c31f802f",
         "title": "Como vejo períodos específicos do meu extrato?",
         "content": "No aplicativo você verá logo abaixo do seu saldo a palavra “Ver extrato”. Depois é só clicar em “Filtrar por período” e selecionar a data. Se você estiver no internet banking, precisa clicar em “Acessar sua conta” e fazer seu login. Depois você clica em “Conta Corrente” e em “Meu Extrato” que fica no canto esquerdo da tela. Lembrando que em ambos os casos, só é possível selecionar até 90 (noventa) dias por consulta."
     },
     "14": {
-        "mongo_id": "6a010f3880dc5e1985ae146b",
+        "mongo_id": "6a1cca8d47d754b1c31f8030",
         "title": "Como acompanho o histórico de pagamentos?",
         "content": "Para o seu controle, registramos todas as operações que você realiza: os valores recebidos, transferidos e sacados. Você pode acompanhar no extrato do aplicativo ou no internet banking (agi.com.br)."
     },
     "15": {
-        "mongo_id": "6a010f3880dc5e1985ae146c",
+        "mongo_id": "6a1cca8d47d754b1c31f8031",
         "title": "Não estou mais conseguindo emitir boletos. O que eu faço?",
         "content": "Existe um limite para a geração de boletos de acordo com o tipo de conta que você possui. Para a conta pessoa física, o limite é de 4 (quatro) boletos por mês (todos gratuitos). Para a conta pessoa jurídica, o limite é de 30 (trinta) boletos por mês. Neste caso, os quatro primeiros são isentos. Caso queira liquidar mais, será cobrado valor unitário até o trigésimo boleto."
     },
     "16": {
-        "mongo_id": "6a010f3880dc5e1985ae146d",
+        "mongo_id": "6a1cca8d47d754b1c31f8032",
         "title": "O que são as tarifas?",
         "content": "A tarifa é o pagamento por um serviço. Os bancos e instituições financeiras, por exemplo, cobram tarifas bancárias devido aos custos dos serviços prestados ao correntista, como no caso das transferências via TED e DOC, emissão de folhas de cheque e saques."
     },
     "17": {
-        "mongo_id": "6a010f3880dc5e1985ae146e",
+        "mongo_id": "6a1cca8d47d754b1c31f8033",
         "title": "Quais são as tarifas cobradas pelo Agi Bank?",
         "content": "O Agi Bank não cobra tarifa de manutenção de conta corrente. Apenas há a cobrança para demais serviços. Confira a tabela completa de tarifas em www.agi.com.br/tarifas."
     },
     "18": {
-        "mongo_id": "6a010f3880dc5e1985ae146f",
+        "mongo_id": "6a1cca8d47d754b1c31f8034",
         "title": "O que são taxas?",
         "content": "A taxa é estabelecida pelo Banco Central e é um pagamento obrigatório por um serviço. Nos bancos, as taxas mais comuns são aquelas que incidem sobre empréstimos – as taxas de juros – como no caso do cheque especial, empréstimo consignado e empréstimo pessoal, entre outros."
     },
     "19": {
-        "mongo_id": "6a010f3880dc5e1985ae1470",
+        "mongo_id": "6a1cca8d47d754b1c31f8035",
         "title": "Como faço o encerramento da conta?",
         "content": "Você pode solicitar o encerramento da sua conta no aplicativo, internet banking ou na Central de Relacionamento 3004 2221 (Capitais e Regiões Metropolitanas) ou 0800 602 0022. Aplicativo: basta abrir o app e fazer seu login. Depois você clica em “Conta” e em “Encerrar Conta. Atenção! Antes de encerrar a conta você precisa verificar algumas coisas: • Saldo: você não pode ter nenhum valor em conta, então é preciso transferir ou sacar o dinheiro antes. Caso tenha saldo negativo, adicione dinheiro antes de formalizar o encerramento. • Cartão: seu cartão de débito/crédito também será cancelado, mas enquanto ainda tiver compras a serem pagas, você irá receber a fatura por e-mail. • Investimentos: se você possui qualquer tipo de aplicação, é necessário resgatar os valores. • Débitos agendados: se você tem débitos agendados em sua conta corrente ou crédito pessoal vinculado à conta (crédito pessoal correntista), será necessário pagar os valores em aberto."
     },
     "20": {
-        "mongo_id": "6a010f3880dc5e1985ae1471",
+        "mongo_id": "6a1cca8d47d754b1c31f8036",
         "title": "Quem pode pedir para receber o seu salário pelo Agi?",
         "content": "Qualquer pessoa que trabalhe em uma empresa pública ou privada pode pedir a portabilidade do salário."
     },
     "21": {
-        "mongo_id": "6a010f3880dc5e1985ae1472",
+        "mongo_id": "6a1cca8d47d754b1c31f8037",
         "title": "Quais são as vantagens em receber meu salário no Agi?",
         "content": "Aqui você tem uma conta digital e completa com vários serviços gratuitos e sem taxa de manutenção. Você também não paga a anuidade do cartão de crédito e pode ter até 40 dias para pagar a fatura. Além disso, o Agi Bank tem mais de 800 lojas espalhadas pelo Brasil com consultores pontos para te ajudar."
     },
     "22": {
-        "mongo_id": "6a010f3880dc5e1985ae1473",
+        "mongo_id": "6a1cca8d47d754b1c31f8038",
         "title": "As tarifas são diferentes para quem fez portabilidade de salário?",
         "content": "Aqui no Agi todo mundo tem as mesmas tarifas, diversos serviços gratuitos e não paga taxa de manutenção. Além disso, você também tem isenção na anuidade do cartão de crédito."
     },
     "23": {
-        "mongo_id": "6a010f3880dc5e1985ae1474",
+        "mongo_id": "6a1cca8d47d754b1c31f8039",
         "title": "Como posso receber meu salário pelo Agi?",
         "content": "Você pode ir até uma de nossas lojas e solicita a portabilidade. Veja aqui a loja mais perto de você: agi.com.br/onde-encontrar"
     },
     "24": {
-        "mongo_id": "6a010f3880dc5e1985ae1475",
+        "mongo_id": "6a1cca8d47d754b1c31f803a",
         "title": "Preciso fazer a solicitação da portabilidade todos os meses?",
         "content": "Não, a partir do momento que for confirmado que você receberá o seu salário na conta Agi Bank, a transferência será feita automaticamente todos os meses. Trouxe meu salário para o Agi, mas quero voltar a receber por outro banco."
     },
     "25": {
-        "mongo_id": "6a010f3880dc5e1985ae1476",
+        "mongo_id": "6a1cca8d47d754b1c31f803b",
         "title": "Posso?",
         "content": "Sim, você pode solicitar a mudança a qualquer momento. Para isso, precisa fazer a solicitação direto no outro banco. Se eu estiver recebendo meu salário pela minha conta digital Agi Bank e"
     },
     "26": {
-        "mongo_id": "6a010f3880dc5e1985ae1477",
+        "mongo_id": "6a1cca8d47d754b1c31f803c",
         "title": "mudar de emprego, o que devo fazer?",
         "content": "Quando você iniciar no novo emprego deverá pedir novamente a para trazer seu salário (portabilidade) para o Agi em uma de nossas lojas. Como encontro o CNPJ da empresa onde trabalho para poder receber meu"
     },
     "27": {
-        "mongo_id": "6a010f3880dc5e1985ae1478",
+        "mongo_id": "6a1cca8d47d754b1c31f803d",
         "title": "salário no Agi?",
         "content": "Você encontra essa informação no seu contracheque de pagamento (holerite) ou no registro na sua Carteira de Trabalho."
     },
     "28": {
-        "mongo_id": "6a010f3880dc5e1985ae1479",
+        "mongo_id": "6a1cca8d47d754b1c31f803e",
         "title": "Quem pode contratar um empréstimo pessoal Agi Bank?",
         "content": "Funcionários públicos, aposentados e pensionistas do INSS. Para profissionais assalariados (que trabalham com carteira assinada) temos a oferta do Empréstimo FGTS. Como solicito a 2ª via do meu contrato ou comprovante de quitação do"
     },
     "29": {
-        "mongo_id": "6a010f3880dc5e1985ae147a",
+        "mongo_id": "6a1cca8d47d754b1c31f803f",
         "title": "empréstimo?",
         "content": "Basta entrar em contato com nosso SAC 0800 730 0999, ou ir até o ponto de atendimento mais próximo e fazer a solicitação. O envio da 2ª via do contrato ou comprovante de quitação pode ser feito via e-mail ou correspondência, conforme preferência informada na solicitação."
     },
     "30": {
-        "mongo_id": "6a010f3880dc5e1985ae147b",
+        "mongo_id": "6a1cca8d47d754b1c31f8040",
         "title": "Quais documentos eu preciso para contratar um empréstimo?",
         "content": "Documento de identificação (RG e CPF), um comprovante de residência como, por exemplo, uma conta de luz, água ou telefone com seu nome e endereço (que tenha até 90 dias de emissão), um comprovante de renda (último contracheque ou detalhamento de crédito do INSS) e extrato de sua conta corrente bancária."
     },
     "31": {
-        "mongo_id": "6a010f3880dc5e1985ae147c",
+        "mongo_id": "6a1cca8d47d754b1c31f8041",
         "title": "Quanto tempo leva até o dinheiro estar na minha conta?",
         "content": "O crédito é liberado logo após a aprovação do empréstimo, porém se a aprovação se concretizar após horário comercial o crédito será no próximo dia útil."
     },
     "32": {
-        "mongo_id": "6a010f3880dc5e1985ae147d",
+        "mongo_id": "6a1cca8d47d754b1c31f8042",
         "title": "Qual o limite de crédito por pessoa?",
         "content": "Os valores concedidos, bem como as taxa e prazo de pagamento dependem da análise de crédito. Estou com parcelas em atraso no Crédito Pessoal, como negociar o"
     },
     "33": {
-        "mongo_id": "6a010f3880dc5e1985ae147e",
+        "mongo_id": "6a1cca8d47d754b1c31f8043",
         "title": "pagamento?",
         "content": "Nós ajudamos você a ficar em dia. Entre em contato diretamente com a nossa equipe pelo telefone (51) 3921 0900 para Capitais e Regiões Metropolitanas ou nos 0800 970 1177 / 0800 602 2220 para demais localidades, de segunda a sexta-feira, das 07h50 às 17h35 e Sábado das 08h às 14h20. Nossos atendentes informarão as opções para pagamento. Lembre-se: quem fica em dia tem crédito extra!"
     },
     "34": {
-        "mongo_id": "6a010f3880dc5e1985ae147f",
+        "mongo_id": "6a1cca8d47d754b1c31f8044",
         "title": "Qual o limite de idade para fazer um Crédito Pessoal?",
         "content": "A idade máxima para empréstimo é 85 anos incompletos. Estou sem margem de desconto em folha no Consignado e já tenho um"
     },
     "35": {
-        "mongo_id": "6a010f3880dc5e1985ae1480",
+        "mongo_id": "6a1cca8d47d754b1c31f8045",
         "title": "Crédito Pessoal em andamento. Posso pedir outro empréstimo?",
         "content": "Sim, você pode contratar um novo crédito ou refinanciar o contrato em andamento de acordo com a política vigente para o produto e a análise do crédito. O Crédito Pessoal e o Consignado INSS são produtos distintos, que não possuem relação de comprometimento de margem entre eles. Já tenho Crédito Pessoal contratado, mas quero trocar a conta de desconto"
     },
     "36": {
-        "mongo_id": "6a010f3880dc5e1985ae1481",
+        "mongo_id": "6a1cca8d47d754b1c31f8046",
         "title": "das parcelas, alterando banco, agência ou conta corrente. É possível?",
         "content": "Sim. Para realizar a atualização dos dados bancários é necessário entrar em contato com nosso Central de Relacionamento 3004 2221 (Capitais e Regiões Metropolitanas) ou 0800 602 0022 (demais localidades) ou ir até o ponto de atendimento mais próximo e fazer a solicitação. Vale ressaltar que, para essa alteração é necessária uma nova autorização de débito, conforme a Resolução 4790 do Banco Central. Tenho dúvidas quanto a um desconto efetuado em minha conta. Como devo"
     },
     "37": {
-        "mongo_id": "6a010f3880dc5e1985ae1482",
+        "mongo_id": "6a1cca8d47d754b1c31f8047",
         "title": "proceder?",
         "content": "Para obter mais informações, entre em contato com nossa Central de Relacionamento 3004 2221 (Capitais e Regiões Metropolitanas) ou 0800 602 0022 (demais localidades). Se preferir, vá até um dos nossos pontos de atendimento. Nossa equipe está pronta para atender você."
     },
     "38": {
-        "mongo_id": "6a010f3880dc5e1985ae1483",
+        "mongo_id": "6a1cca8d47d754b1c31f8048",
         "title": "Posso fazer um empréstimo se estiver sem margem no consignado?",
         "content": "Sim. Como o crédito pessoal não é uma modalidade de crédito consignado, é possível efetuar a contratação com débito em conta. A concessão do crédito é sujeita a análise. Já tenho Crédito Pessoal contratado e que ainda não está totalmente pago."
     },
     "39": {
-        "mongo_id": "6a010f3880dc5e1985ae1484",
+        "mongo_id": "6a1cca8d47d754b1c31f8049",
         "title": "Posso contratar outro empréstimo?",
         "content": "Sim, você pode contratar uma outro crédito pessoal ou pode refinanciar seu contrato em andamento. Para isso, é preciso que você tenha margem disponível e cumpra os requisitos da política atual do produto da modalidade contratada."
     },
     "40": {
-        "mongo_id": "6a010f3880dc5e1985ae1485",
+        "mongo_id": "6a1cca8d47d754b1c31f804a",
         "title": "Preciso comprovar que tenho conta em banco para fazer o empréstimo?",
         "content": "Sim, como o pagamento das parcelas é por meio de débito automático em sua conta corrente é preciso apresentar um extrato bancário para contratar um empréstimo. Como posso simular a contratação de um empréstimo consignado ou com"
     },
     "41": {
-        "mongo_id": "6a010f3880dc5e1985ae1486",
+        "mongo_id": "6a1cca8d47d754b1c31f804b",
         "title": "débito em conta?",
         "content": "Você pode fazer uma simulação na nossa central de vendas. É só ligar para o número 3004 0900 (Capitais e Regiões Metropolitanas) ou 0800 724 0900 (demais localidades). Você também pode ir a uma de nossas lojas, acesse www.agi.com.br/onde- encontrar e encontre a mais próxima de você. Nossa equipe está pronta para orientar você quanto ao pagamento e antecipação de parcelas. Como proceder se eu tiver um Crédito Pessoal contratado e quiser antecipar"
     },
     "42": {
-        "mongo_id": "6a010f3880dc5e1985ae1487",
+        "mongo_id": "6a1cca8d47d754b1c31f804c",
         "title": "os pagamentos ou quitar o contrato?",
         "content": "Entre em contato com a nossa Central de Relacionamento pelos telefones 3004 2221 para Capitais e Regiões Metropolitanas ou no 0800 602 0022 para demais localidades. Se preferir procure um de nossos pontos de atendimento para que possamos calcular o valor total da antecipação de parcelas ou pagamento total. Nossa equipe está pronta para orientar você quanto ao pagamento."
     },
     "43": {
-        "mongo_id": "6a010f3880dc5e1985ae1488",
+        "mongo_id": "6a1cca8d47d754b1c31f804d",
         "title": "O que é o Empréstimo FGTS?",
         "content": "É uma modalidade de empréstimo que te permite trabalhadores assalariados (com carteira assinada) antecipar parte do saldo da conta do Fundo de Garantia (FGTS). Quem faz a antecipação do FGTS poderá sacar um percentual do saldo acrescido de uma parcela adicional conforme tabela abaixo:"
     },
     "44": {
-        "mongo_id": "6a010f3880dc5e1985ae1489",
+        "mongo_id": "6a1cca8d47d754b1c31f804e",
         "title": "O que é o saldo FGTS?",
         "content": "O Fundo de Garantia do Tempo de Serviço (FGTS) é uma conta vinculada ao contrato de trabalho, em que, todo mês, o empregador deposita o valor correspondente a 8% do salário do trabalhador. Resultando em um montante para saque em casos de demissão sem justa causa, doenças, compra de imóveis e outros."
     },
     "45": {
-        "mongo_id": "6a010f3880dc5e1985ae148a",
+        "mongo_id": "6a1cca8d47d754b1c31f804f",
         "title": "Como vejo meu saldo no FGTS?",
         "content": "O saldo poderá ser consultado usando o aplicativo do FGTS ou o site fgts.caixa.gov.br."
     },
     "46": {
-        "mongo_id": "6a010f3880dc5e1985ae148b",
+        "mongo_id": "6a1cca8d47d754b1c31f8050",
         "title": "Como posso resgatar meu FGTS?",
         "content": "Hoje existem duas formas de sacar o saldo do FGTS: • Saque Rescisão: essa é a forma mais conhecida, onde o trabalhador pode sacar o valor total se for demitido sem justa causa, ao se aposentar, no caso de doenças graves. • Saque-Aniversário: essa é uma nova forma onde o governo libera parte do saldo do trabalhador todo ano no mês do seu aniversário."
     },
     "47": {
-        "mongo_id": "6a010f3880dc5e1985ae148c",
+        "mongo_id": "6a1cca8d47d754b1c31f8051",
         "title": "O que é o empréstimo com garantia do FGTS?",
         "content": "Se você optar pelo Saque Aniversário poderá fazer o empréstimo com garantia do FGTS e antecipar o saldo do mês do seu aniversário. O saldo é utilizado como garantia da operação."
     },
     "48": {
-        "mongo_id": "6a010f3880dc5e1985ae148d",
+        "mongo_id": "6a1cca8d47d754b1c31f8052",
         "title": "Quais as vantagens desse empréstimo?",
         "content": "O Empréstimo FGTS permite a antecipação do saldo do FGTS, sem a necessidade de aguardar o recebimento somente no mês do aniversário. Você pode antecipar até 7 anos de saldo e não compromete sua renda mensal. Além disso, contamos com uma taxa atrativa, processo ágil para contratação, sem burocracia."
     },
     "49": {
-        "mongo_id": "6a010f3880dc5e1985ae148e",
+        "mongo_id": "6a1cca8d47d754b1c31f8053",
         "title": "Quem pode contratar a Antecipação do Saque Aniversário?",
         "content": "Clientes que tenham saldo no FGTS, respeitando saldo e as alíquotas + parcela adicional estipulada pelo governo. Porém, você precisa alterar a modalidade para Saque Aniversário, bem como, autorizar o Agi Bank a consultar as informações do seu FGTS."
     },
     "50": {
-        "mongo_id": "6a010f3880dc5e1985ae148f",
+        "mongo_id": "6a1cca8d47d754b1c31f8054",
         "title": "Quais são as condições para contratação?",
         "content": "Antecipamos até 7 (sete) anos de saldo do Fundo de Garantia. Valor mínimo é de R$ 100 e o máximo de R$180.000,00."
     },
     "51": {
-        "mongo_id": "6a010f3880dc5e1985ae1490",
+        "mongo_id": "6a1cca8d47d754b1c31f8055",
         "title": "Como posso contratar o Empréstimo FGTS?",
         "content": "Por enquanto só é possível fazer a contratação em uma de nossas lojas. Acesse agi.com.br/onde-encontrar e encontre uma perto de você."
     },
     "52": {
-        "mongo_id": "6a010f3880dc5e1985ae1491",
+        "mongo_id": "6a1cca8d47d754b1c31f8056",
         "title": "Como faço os pagamentos das parcelas do Empréstimo FGTS?",
         "content": "Ao contratar o empréstimo, você autoriza o Agi Bank a bloquear o saldo do FGTS. Os pagamentos serão realizados anualmente, de acordo com os anos antecipados, e o repasse é feito pela Caixa ao Agi Bank até a quitação do contrato."
     },
     "53": {
-        "mongo_id": "6a010f3880dc5e1985ae1492",
+        "mongo_id": "6a1cca8d47d754b1c31f8057",
         "title": "É possível liquidar o contrato para desbloquear o meu saldo do FGTS?",
         "content": "Sim. Para fazer a liquidação antecipada você precisa entrar em contato com a Central de Relacionamento pelos telefones 3004 2221 para Capitais e Regiões Metropolitanas ou no 0800 602 0022 ou ir até a uma loja e solicitar informações para quitação ou amortização do saldo bloqueado. Uma vez quitado o valor devido, a Caixa Econômica será notificada para fazer o desbloqueio do saldo. Mas atenção: esse processo deverá ocorrer no máximo em até 10 (dez) dias antes do 1º dia útil do mês de aniversário do ano vigente."
     },
     "54": {
-        "mongo_id": "6a010f3880dc5e1985ae1493",
+        "mongo_id": "6a1cca8d47d754b1c31f8058",
         "title": "Como faço para cancelar meu empréstimo?",
         "content": "É possível solicitar o cancelamento da operação em até 7 (sete) dias corridos após a contratação, conforme prevê o código de defesa do consumidor. Para isso, o valor do empréstimo deverá estar disponível na conta informada. Após esse período não será mais possível fazer o cancelamento do contrato. Se eu solicitar o Empréstimo FGTS, poderei contratar outras linhas de"
     },
     "55": {
-        "mongo_id": "6a010f3880dc5e1985ae1494",
+        "mongo_id": "6a1cca8d47d754b1c31f8059",
         "title": "crédito?",
         "content": "Sim. A contratação do Empréstimo FGTS não compromete as demais linhas de crédito, como por exemplo, Consignado, Crédito Pessoal."
     },
     "56": {
-        "mongo_id": "6a010f3880dc5e1985ae1495",
+        "mongo_id": "6a1cca8d47d754b1c31f805a",
         "title": "Quais tipos de cartão o Agi oferece?",
         "content": "Atualmente temos as seguintes modalidades, dependendo do público e canal de solicitação: • Cartão de crédito Consignado: para aposentados e pensionistas do INSS; • Cartão múltiplo (débito e crédito): para correntistas Agi Bank."
     },
     "57": {
-        "mongo_id": "6a010f3880dc5e1985ae1496",
+        "mongo_id": "6a1cca8d47d754b1c31f805b",
         "title": "Quais os benefícios do cartão?",
         "content": "Tanto com o cartão Consignado quanto com o de crédito ou débito você pode realizar compras à vista e parceladas em lojas que aceitam a bandeira Mastercard. Também é possível realizar saque nos caixas eletrônicos credenciados. Clientes com cartão múltiplo podem ainda fazer transações a crédito no exterior, presencialmente ou pela internet. Além disso, podem acompanhar suas movimentações em tempo real pelo aplicativo, com opção de bloqueio e desbloqueio preventivo do cartão a qualquer momento. Todos os clientes podem contar com os benefícios da bandeira Mastercard como, por exemplo, o programa Mastercard Surpreenda (saiba mais em www.mastercard.com.br)."
     },
     "58": {
-        "mongo_id": "6a010f3880dc5e1985ae1497",
+        "mongo_id": "6a1cca8d47d754b1c31f805c",
         "title": "Como posso solicitar um cartão?",
         "content": "Você pode solicitar o cartão múltiplo (crédito e débito) baixando o aplicativo e abrindo sua conta digital. Se você for até uma de nossas lojas pode pedir tanto o cartão múltiplo quanto o Consignado. Ao solicitar qualquer cartão é feita uma análise de crédito e, só assim, o cartão é liberado."
     },
     "59": {
-        "mongo_id": "6a010f3880dc5e1985ae1498",
+        "mongo_id": "6a1cca8d47d754b1c31f805d",
         "title": "Meu cartão é só débito, como faço para ter limite de crédito?",
         "content": "Todos os clientes estão sujeitos à análise de crédito. Caso você possua um cartão múltiplo só com a função débito ativa, ainda é possível que você tenha limite aprovado. As reanálises acontecem de período em período. Mantenha sua conta com saldo e com constantes movimentações para aumentar suas chances!"
     },
     "60": {
-        "mongo_id": "6a010f3880dc5e1985ae1499",
+        "mongo_id": "6a1cca8d47d754b1c31f805e",
         "title": "Como acesso a fatura do cartão de crédito?",
         "content": "A fatura pode ser visualizada pelo aplicativo, internet banking ou por e-mail. Você também solicitação a fatura na nossa Central de Relacionamento ou até mesmo em uma de nossas lojas."
     },
     "61": {
-        "mongo_id": "6a010f3880dc5e1985ae149a",
+        "mongo_id": "6a1cca8d47d754b1c31f805f",
         "title": "Quais opções eu tenho para pagar a minha fatura?",
         "content": "No aplicativo você pode colocar a fatura em débito automático ou fazer o pagamento clicando no botão “Pagar fatura”. Caso prefira, também é possível fazer o pagamento em uma casa lotérica."
     },
     "62": {
-        "mongo_id": "6a010f3880dc5e1985ae149b",
+        "mongo_id": "6a1cca8d47d754b1c31f8060",
         "title": "Posso pagar apenas parte do valor da fatura?",
         "content": "Para se manter em dia, você deve pagar qualquer valor entre o mínimo e o total da fatura. Sobre o saldo não pago incidirão encargos de rotativo na próxima fatura. Caso não efetue pagamento, ou pague menos do que o valor mínimo, você fica inadimplente e com uso suspenso do cartão de crédito, ficando sujeito à cobrança de multa e juros de mora."
     },
     "63": {
-        "mongo_id": "6a010f3880dc5e1985ae149c",
+        "mongo_id": "6a1cca8d47d754b1c31f8061",
         "title": "Como funciona o parcelamento do rotativo?",
         "content": "Com a nova regra do Banco Central, a partir de 03/04/2017, você não pode pagar menos do que o total da fatura por 2 meses consecutivos. A partir do segundo mês, você receberá uma oferta automática de parcelamento da fatura, com opção de parcelas fixas e juros mais baixos. Assim, fica mais fácil para pagar a dívida."
     },
     "64": {
-        "mongo_id": "6a010f3880dc5e1985ae149d",
+        "mongo_id": "6a1cca8d47d754b1c31f8062",
         "title": "Como quitar o saldo devedor do meu cartão?",
         "content": "Se você sabe o valor total da sua dívida em aberto, basta usar uma das faturas e fazer o pagamento do valor exato. Caso tenha dúvidas, entre em contato com a nossa Central de Relacionamento: 3004 2221 (Capitais e regiões metropolitanas) ou 0800 602 0022 (Demais localidades)."
     },
     "65": {
-        "mongo_id": "6a010f3880dc5e1985ae149e",
+        "mongo_id": "6a1cca8d47d754b1c31f8063",
         "title": "Posso alterar o dia de vencimento da fatura?",
         "content": "Clientes correntistas digitais podem alterar a data uma vez a cada 6 meses direto pelo aplicativo. Demais clientes seguem política interna, e tem data padrão conforme calendário de recebimento do seu salário/benefício."
     },
     "66": {
-        "mongo_id": "6a010f3880dc5e1985ae149f",
+        "mongo_id": "6a1cca8d47d754b1c31f8064",
         "title": "Recebi meu cartão. Como faço para começar a usá-lo?",
         "content": "Todo cartão chega bloqueado por segurança. O primeiro passo para ativá-lo é realizar o desbloqueio em um dos nossos canais. Se você tiver uma conta digital, o desbloqueio deve ser feito pelo aplicativo, na aba Cartões, usando o QR Code enviado na correspondência. Demais clientes podem ligar para 3004 2221 (Capitais e regiões metropolitanas) ou 0800 602 0022 (Demais localidades) ou se dirigir a uma de nossas mais de 800 lojas espalhadas pelo país."
     },
     "67": {
-        "mongo_id": "6a010f3880dc5e1985ae14a0",
+        "mongo_id": "6a1cca8d47d754b1c31f8065",
         "title": "Meu cartão foi aprovado, mas ainda não chegou. Como procedo?",
         "content": "O cartão pode demorar até 20 dias úteis para chegar dependendo da sua localidade. Se mesmo após esse prazo ele não chegar, ligue na nossa Central de Relacionamento e confirme seu endereço cadastral para que possamos fazer o envio de um novo pra você."
     },
     "68": {
-        "mongo_id": "6a010f3880dc5e1985ae14a1",
+        "mongo_id": "6a1cca8d47d754b1c31f8066",
         "title": "Errei várias vezes a senha e bloqueei meu cartão. Como devo proceder?",
         "content": "Para sua própria segurança, depois de digitar 3 vezes uma senha errada do cartão ele bloqueia automaticamente. Para fazer o desbloqueio do cartão e solicitar uma nova senha, ligue na nossa Central de Relacionamento: 3004 2221 (Capitais e regiões metropolitanas) ou 0800 602 0022 (Demais localidades)."
     },
     "69": {
-        "mongo_id": "6a010f3880dc5e1985ae14a2",
+        "mongo_id": "6a1cca8d47d754b1c31f8067",
         "title": "Como devo proceder no caso de perda, roubo ou furto do meu cartão?",
         "content": "Para solicitar o bloqueio do cartão Consignado é preciso ligar na nossa Central de Relacionamento pelo telefone 3004 2221 (Capitais e regiões metropolitanas) ou 0800 602 0022 (Demais localidades). Você pode realizar o bloqueio ou cancelamento do cartão múltiplo pelo aplicativo ou ligando na nossa Central de Relacionamento. Você também já pode aproveitar e solicitar que um novo cartão seja enviado para o seu endereço."
     },
     "70": {
-        "mongo_id": "6a010f3880dc5e1985ae14a3",
+        "mongo_id": "6a1cca8d47d754b1c31f8068",
         "title": "Esqueci minha senha. Como devo proceder para ter uma nova senha?",
         "content": "Para solicitar uma nova senha você deve entrar no seu aplicativo do Agi e alterar a senha em “Opções de cartão” na aba “Cartões”. Uma outra opção é entrando em contato com a Central de Relacionamento: 3004 2221 (Capitais e regiões metropolitanas) ou 0800 602 0022 (Demais localidades)."
     },
     "71": {
-        "mongo_id": "6a010f3880dc5e1985ae14a4",
+        "mongo_id": "6a1cca8d47d754b1c31f8069",
         "title": "Como faço para aumentar o limite do meu cartão?",
         "content": "O aumento de limite depende de muitas análises internas do banco. O mais importante é manter-se em dia com os seus pagamentos e utilizar os nossos produtos. Quanto mais você usar, mais chances têm de ter seu limite revisado. Quando um aumento estiver disponível pra você, a gente avisa."
     },
     "72": {
-        "mongo_id": "6a010f3880dc5e1985ae14a5",
+        "mongo_id": "6a1cca8d47d754b1c31f806a",
         "title": "Não aprovaram minha solicitação de cartão, o que posso fazer?",
         "content": "Enquanto o cartão não estiver disponível para você, aproveite os demais produtos e benefícios que o Agi Bank oferece, como conta 100% digital, crédito pessoal rápido e descomplicado, seguro de vida, consórcios e investimentos. Sendo um cliente ativo é possível que você tenha o cartão liberado no futuro."
     },
     "73": {
-        "mongo_id": "6a010f3880dc5e1985ae14a6",
+        "mongo_id": "6a1cca8d47d754b1c31f806b",
         "title": "Quais seguros o Agi oferece?",
         "content": "Oferecemos o seguro de vida, residencial, para veículos e o de proteção urbana."
     },
     "74": {
-        "mongo_id": "6a010f3880dc5e1985ae14a7",
+        "mongo_id": "6a1cca8d47d754b1c31f806c",
         "title": "Como faço para contratar um seguro?",
         "content": "Você pode ir até uma de nossas lojas e realizar a contratação ou ligar na nossa Central de Vendas: 3004 0900 (Capitais) ou 0800 724 0900 (Demais localidades)."
     },
     "75": {
-        "mongo_id": "6a010f3880dc5e1985ae14a8",
+        "mongo_id": "6a1cca8d47d754b1c31f806d",
         "title": "Pessoas não alfabetizadas podem contratar?",
         "content": "Sim. Com a identificação do polegar e assinatura de duas testemunhas (devidamente identificadas com CPF) na proposta de adesão."
     },
     "76": {
-        "mongo_id": "6a010f3880dc5e1985ae14a9",
+        "mongo_id": "6a1cca8d47d754b1c31f806e",
         "title": "Como cancelar meu seguro de vida?",
         "content": "Você deve entrar em contato com nossa Central de Relacionamento no telefone 3004 2221 (Capitais e regiões metropolitanas) ou 0800 602 0022 (Demais localidades) e solicitar para o encerramento do seguro. Ressaltamos que não serão restituídos valores pelo tempo de cobertura do segurado."
     },
     "77": {
-        "mongo_id": "6a010f3880dc5e1985ae14aa",
+        "mongo_id": "6a1cca8d47d754b1c31f806f",
         "title": "Como resgatar o seguro de vida?",
         "content": "A abertura do sinistro deve ser feita pelos beneficiários pela Central de Sinistros Agi Bank nos telefones 3004 2221 (Capitais) ou 0800 730 0022 (Demais localidades). Também é possível enviar um e-mail para sinistro@agibank.com.br"
     },
     "78": {
-        "mongo_id": "6a010f3880dc5e1985ae14ab",
+        "mongo_id": "6a1cca8d47d754b1c31f8070",
         "title": "Quem são os beneficiários do seguro de vida, ou seja, quem vai receber?",
         "content": "Os beneficiários são indicados no momento da contratação do seguro ou definidos como os herdeiros legais como filhos, esposa ou marido, por exemplo."
     },
     "79": {
-        "mongo_id": "6a010f3880dc5e1985ae14ac",
+        "mongo_id": "6a1cca8d47d754b1c31f8071",
         "title": "Qualquer pessoa pode contratar o seguro de vida?",
         "content": "Sim, qualquer pessoa que tenha de 18 a 79 anos 11 mês e 30 dias e que possua uma conta bancária."
     },
     "80": {
-        "mongo_id": "6a010f3880dc5e1985ae14ad",
+        "mongo_id": "6a1cca8d47d754b1c31f8072",
         "title": "Para que serve o seguro residencial?",
         "content": "Além de coberturas em caso de incêndio, queda de raio e explosão, o seguro residencial oferece assistência 24h, com serviços como chaveiro, hidráulico e eletricista."
     },
     "81": {
-        "mongo_id": "6a010f3880dc5e1985ae14ae",
+        "mongo_id": "6a1cca8d47d754b1c31f8073",
         "title": "Quais as formas de pagamento do seguro de residência?",
         "content": "Temos planos de seguro anual que podem ser pagos em uma ou duas vezes, sendo a primeira à vista e a segunda em até 40 dias. No caso de parcela única, usada nos 4 de menor valor, a contratação pode ser paga em débito em conta ou boleto bancário. No caso de duas parcelas, podem ser ambas em débito em conta ou a primeira em débito em conta e a segunda em boleto."
     },
     "82": {
-        "mongo_id": "6a010f3880dc5e1985ae14af",
+        "mongo_id": "6a1cca8d47d754b1c31f8074",
         "title": "Posso contratar seguro para minha casa de veraneio?",
         "content": "Os planos regulares do seguro de residência são destinados à sua casa habitual. Mas, se você tem interesse, entre em contato que também conseguimos valores de seguro para residência de férias."
     },
     "83": {
-        "mongo_id": "6a010f3880dc5e1985ae14b0",
+        "mongo_id": "6a1cca8d47d754b1c31f8075",
         "title": "Minha casa é alugada. Posso contratar seguro para ela?",
         "content": "Sim, é só você entrar em contato que nossa equipe está pronta para fazer uma nova cotação e alterar as coberturas que você desejar."
     },
     "84": {
-        "mongo_id": "6a010f3880dc5e1985ae14b1",
+        "mongo_id": "6a1cca8d47d754b1c31f8076",
         "title": "Sou motoboy. Posso contratar seguro de veículo para minha motocicleta?",
         "content": "Sim, mas é importante informar sua ocupação no momento da cotação, quando você preenche os dados de perfil."
     },
     "85": {
-        "mongo_id": "6a010f3880dc5e1985ae14b2",
+        "mongo_id": "6a1cca8d47d754b1c31f8077",
         "title": "Quem é o principal condutor?",
         "content": "O principal condutor é a pessoa que dirige ou utiliza o veículo na maior parte do tempo (85% do tempo, na regra precisa). Quando não for possível determinar um único condutor principal, deve ser indicado o condutor de menor idade."
     },
     "86": {
-        "mongo_id": "6a010f3880dc5e1985ae14b3",
+        "mongo_id": "6a1cca8d47d754b1c31f8078",
         "title": "O que é o seguro proteção urbana?",
         "content": "É uma proteção que garante a indenização para reposição de bens roubados/furtados em decorrência de assaltos, roubos ou furtos. Além da indenização para reposição dos bens físicos como bolsas, celulares, óculos, 2° via de documentos, o seguro proteção urbana também cobre prejuízos como compra e saques ocorridos com o seu cartão de crédito e débito."
     },
     "87": {
-        "mongo_id": "6a010f3880dc5e1985ae14b4",
+        "mongo_id": "6a1cca8d47d754b1c31f8079",
         "title": "Preciso abrir uma conta no Agi Bank para poder investir?",
         "content": "Não, só precisa baixar o aplicativo Agi Investimentos e fazer seu cadastro."
     },
     "88": {
-        "mongo_id": "6a010f3880dc5e1985ae14b5",
+        "mongo_id": "6a1cca8d47d754b1c31f807a",
         "title": "Quais opções o Agi Investimentos possui?",
         "content": "No aplicativo do Agi Investimentos você encontra opções de Tesouro Direto, Fundos de Investimento, Renda Fixa, Bolsa de Valores, Previdência Privada, COE e Ofertas Públicas."
     },
     "89": {
-        "mongo_id": "6a010f3880dc5e1985ae14b6",
+        "mongo_id": "6a1cca8d47d754b1c31f807b",
         "title": "O que é renda fixa e como funciona?",
         "content": "A renda fixa, como o próprio nome já diz, é uma classe de investimentos em que a rentabilidade é determinada no momento da contratação. Por exemplo, se o investidor adquire um título com juros prefixados que paga 6% de rentabilidade ao ano, ao final do período, ou seja, na data de vencimento do contrato, ele irá receber a remuneração combinada. Por outro lado, se contrata um título pós-fixado atrelado ao CDI, IPCA ou Selic, não é possível saber exatamente quanto vai receber ao final do período, mas sabe que a taxa de rentabilidade está fixada no indicador."
     },
     "90": {
-        "mongo_id": "6a010f3880dc5e1985ae14b7",
+        "mongo_id": "6a1cca8d47d754b1c31f807c",
         "title": "O que significa taxa prefixada?",
         "content": "As taxas de juros prefixadas são definidas na hora da contratação de um empréstimo ou da realização de um investimento. O investidor passa a conhecer o valor das taxas e pode calcular o quanto irá pagar nas parcelas da transação ou estimar a rentabilidade no resgate do investimento que está realizando."
     },
     "91": {
-        "mongo_id": "6a010f3880dc5e1985ae14b8",
+        "mongo_id": "6a1cca8d47d754b1c31f807d",
         "title": "O que significa taxa pós-fixada?",
         "content": "As taxas de juros pós-fixadas andam lado a lado com os índices da inflação e podem variar, dependendo da situação econômica de um país. Esses juros estão relacionados às taxas de base que remuneram as cadernetas de poupança."
     },
     "92": {
-        "mongo_id": "6a010f3880dc5e1985ae14b9",
+        "mongo_id": "6a1cca8d47d754b1c31f807e",
         "title": "O que é o CDI?",
         "content": "O CDI (Certificado de Depósito Interbancário) é o indexador da rentabilidade da maioria dos títulos de renda fixa, incluindo o CDB do Agi Bank. O CDI e a taxa Selic, taxa básica de juros da economia no Brasil, são muito próximos, então, quando a Selic tem uma variação o CDI acompanha."
     },
     "93": {
-        "mongo_id": "6a010f3880dc5e1985ae14ba",
+        "mongo_id": "6a1cca8d47d754b1c31f807f",
         "title": "O que é o IPCA?",
         "content": "O IPCA é o principal índice que calcula a inflação brasileira. Somente com ele são avaliados os valores de mais de 400 itens."
     },
     "94": {
-        "mongo_id": "6a010f3880dc5e1985ae14bb",
+        "mongo_id": "6a1cca8d47d754b1c31f8080",
         "title": "O que é a Selic?",
         "content": "A taxa Selic é a taxa básica de juros do Brasil. Todas as outras taxas de juros têm ela como base. O nome vem de Sistema Especial de Liquidação e Custódia – apesar de parecer complicado, a ideia é bem simples: o governo controla a taxa de juros, com a intenção de controlar, também, a inflação do país."
     },
     "95": {
-        "mongo_id": "6a010f3880dc5e1985ae14bc",
+        "mongo_id": "6a1cca8d47d754b1c31f8081",
         "title": "Quais são os produtos de renda fixa?",
         "content": "Os produtos de renda fixa são títulos públicos (tesouro direto), CDB, LCI e LCA."
     },
     "96": {
-        "mongo_id": "6a010f3880dc5e1985ae14bd",
+        "mongo_id": "6a1cca8d47d754b1c31f8082",
         "title": "O que é Tesouro Direto?",
         "content": "Trata-se de um sistema que foi desenvolvido pelo Tesouro Nacional, com o intuito de vender títulos públicos e permitir que qualquer pessoa possa fazer pequenos investimentos. É quase como um empréstimo que você faz ao governo e, posteriormente, recebe o valor de volta com juros."
     },
     "97": {
-        "mongo_id": "6a010f3880dc5e1985ae14be",
+        "mongo_id": "6a1cca8d47d754b1c31f8083",
         "title": "O que é CDB, LCI e LCA?",
         "content": "O Certificado de Depósito Bancário (CDB) é um título privado emitido pelos bancos com o intuito de captar recursos para financiar, por exemplo, atividades de crédito. É coberto pelo FGC e há cobrança de IOF em caso de resgate com menos de 30 dias. Emitidos por instituições financeiras, a Letra de Crédito Imobiliário (LCI) e a Letra de Crédito Agronegócio (LCA) são semelhantes ao CDB e têm o objetivo de financiar o setor imobiliário e o agrícola, respectivamente. As LCIs são garantidas por hipotecas ou alienação fiduciária de um imóvel, enquanto as LCAs têm lastro em operações de crédito rural. São cobertos pelo FGC e têm isenção de Imposto de Renda para pessoa física."
     },
     "98": {
-        "mongo_id": "6a010f3880dc5e1985ae14bf",
+        "mongo_id": "6a1cca8d47d754b1c31f8084",
         "title": "A renda fixa é indicada para quem?",
         "content": "A renda fixa é indicada para todos os públicos, tanto para investidores com perfil conservador, como para investidores moderados ou arrojados que valorizam a diversificação da carteira. É uma ótima opção para investidores iniciantes."
     },
     "99": {
-        "mongo_id": "6a010f3880dc5e1985ae14c0",
+        "mongo_id": "6a1cca8d47d754b1c31f8085",
         "title": "O que é renda variável e como funciona?",
         "content": "A renda variável se refere a um grupo de investimentos que tem uma característica em comum: a imprevisibilidade dos rendimentos. Em outras palavras, isso significa que a pessoa que investe em renda variável não tem certeza de quanto terá ao final do processo. É o contrário do que ocorre nos investimentos de renda fixa, em que há certa previsibilidade. Isso acontece porque o rendimento dos ativos está ligado a diversos fatores que costumam sofrer oscilações ao longo do tempo. Entre eles, podemos destacar: PIB, inflação, taxa de juros, câmbio, cenário político nacional e estrangeiro."
     },
     "100": {
-        "mongo_id": "6a010f3880dc5e1985ae14c1",
+        "mongo_id": "6a1cca8d47d754b1c31f8086",
         "title": "Quais são os produtos de renda variável?",
         "content": "A renda variável possui investimentos de riscos maiores, o que pode gerar um prejuízo ou um lucro mais acentuado. As principais aplicações são ações, BDRs e fundos imobiliários, mas também existem fundos que seguem o padrão de renda variável."
     },
     "101": {
-        "mongo_id": "6a010f3880dc5e1985ae14c2",
+        "mongo_id": "6a1cca8d47d754b1c31f8087",
         "title": "O que são Ações?",
         "content": "As ações são pequenas parcelas de capital de empresas que concedem direitos e deveres de um sócio a todos os seus proprietários. Isso acontece quando a empresa tem o capital aberto, dividindo a companhia em várias cotas de ações, que são colocadas à venda para a compra de investidores. As ações sofrem com as variações de mercado, em curto, médio e longo prazo."
     },
     "102": {
-        "mongo_id": "6a010f3880dc5e1985ae14c3",
+        "mongo_id": "6a1cca8d47d754b1c31f8088",
         "title": "O que é BDR?",
         "content": "BDR significa Brazilian Depositary Receipts e são certificados que representam ações emitidas por empresas em outros países, mas que são negociados aqui na bolsa de valores do Brasil. Quem adquire um BDR, portanto, não compra diretamente as ações da empresa no exterior. Em vez disso, investe em títulos representativos desses papéis."
     },
     "103": {
-        "mongo_id": "6a010f3880dc5e1985ae14c4",
+        "mongo_id": "6a1cca8d47d754b1c31f8089",
         "title": "O que são Fundos Imobiliários?",
         "content": "Um fundo imobiliário é uma espécie de “condomínio” de investidores, que reúnem seus recursos para que sejam aplicados em conjunto no mercado imobiliário. A dinâmica mais tradicional é que o dinheiro seja usado na construção ou na aquisição de imóveis, que depois sejam locados ou arrendados. Os ganhos obtidos com essas operações são divididos entre os participantes, na proporção em que cada um aplicou. As decisões sobre o que fazer com os recursos – tomadas pelo gestor do fundo – precisam seguir objetivos e políticas pré-definidos. Os investimentos podem ser bem-sucedidos ou não, e isso determinará a valorização ou a desvalorização das cotas dos fundos. Uma vantagem desta classe é que parte do retorno obtido com o investimento é isenta de tributação."
     },
     "104": {
-        "mongo_id": "6a010f3880dc5e1985ae14c5",
+        "mongo_id": "6a1cca8d47d754b1c31f808a",
         "title": "O que é uma Oferta Pública?",
         "content": "Oferta Pública é um método utilizado por instituições para captar recursos. Elas emitem ações, cotas de fundos, entre outros ativos, para serem negociados no mercado financeiro. Os tipos de oferta pública são: • IPO (Oferta Pública Inicial): quando uma empresa vende ativos pela primeira vez para o público (chamamos isso também de abertura de capital). • Follow-on: quando a empresa decide captar recursos outra vez e coloca novos ativos à venda. • OPA (Oferta Pública de Aquisição): é o processo de fechamento ou redução de capital de uma empresa, onde ela recompra parcialmente ou totalmente as ações em circulação no mercado."
     },
     "105": {
-        "mongo_id": "6a010f3880dc5e1985ae14c6",
+        "mongo_id": "6a1cca8d47d754b1c31f808b",
         "title": "O que é COE?",
         "content": "O COE (Certificado de Operações Estruturadas) é um tipo de investimento que combina elementos da renda fixa e da renda variável. Ele te dá a possibilidade de investir no mercado internacional, em moedas, ações, índices, entre outros, diversificando a sua carteira. É emitido por bancos e são eles que protegem o capital do investidor. O risco está no banco passar por dificuldades e não conseguir honrar seus pagamentos. É por isso que trabalhamos só com instituições de confiança."
     },
     "106": {
-        "mongo_id": "6a010f3880dc5e1985ae14c7",
+        "mongo_id": "6a1cca8d47d754b1c31f808c",
         "title": "Quais os tipos de COE?",
         "content": "Valor Nominal Protegido, em que o investidor recebe de volta o valor aplicado inicialmente, mesmo que o desempenho seja negativo. Valor Nominal em Risco, nessa modalidade, não há garantia. O investidor pode perder o valor inicial investido."
     },
     "107": {
-        "mongo_id": "6a010f3880dc5e1985ae14c8",
+        "mongo_id": "6a1cca8d47d754b1c31f808d",
         "title": "O que é Previdência Privada?",
         "content": "Investir em previdência privada é uma boa forma de construir ou aumentar seu patrimônio a longo prazo. Ao fim do período definido, você escolhe se quer resgatar o valor total ou transformá-lo em renda mensal."
     },
     "108": {
-        "mongo_id": "6a010f3880dc5e1985ae14c9",
+        "mongo_id": "6a1cca8d47d754b1c31f808e",
         "title": "Quais as vantagens da Previdência Privada?",
         "content": "As vantagens são: • Contribuição flexível: você pode fazer um aporte único ou contribuições mensais. • Benefício fiscal: tenha benefícios na declaração do Imposto de Renda. Sem come-cotas, nada de antecipações semestrais de imposto. • Planos acessíveis: opções de planos com contribuições mensais a partir de R$ 100. Não entra no inventário, fácil transmissão aos beneficiários, em caso de sucessão."
     },
     "109": {
-        "mongo_id": "6a010f3880dc5e1985ae14ca",
+        "mongo_id": "6a1cca8d47d754b1c31f808f",
         "title": "Posso trazer a minha Previdência para o Agi?",
         "content": "Pode sim! Aqui no Agi a portabilidade é facilitada, transfira recursos de um fundo de previdência para outro, sem custo."
     },
     "110": {
-        "mongo_id": "6a010f3880dc5e1985ae14cb",
+        "mongo_id": "6a1cca8d47d754b1c31f8090",
         "title": "Quais os tipos de planos de Previdência Privada?",
         "content": "PGBL (Plano Gerador de Benefícios Livre), ideal para quem declara Imposto de Renda pelo modelo completo e possui renda definida. É possível deduzir até 12% da sua renda bruta tributável com o valor investido em seu plano durante o ano. VGBL (Vida Gerador de Benefícios Livre), ideal para quem faz a declaração simplificada do Imposto de Renda. Nesse modelo, a tributação será só sobre os seus rendimentos e não pelo investimento total."
     },
     "111": {
-        "mongo_id": "6a010f3880dc5e1985ae14cc",
+        "mongo_id": "6a1cca8d47d754b1c31f8091",
         "title": "Recebo algum comprovante de aplicação/investimento?",
         "content": "Sim. Disponibilizamos a Nota de Aplicação, com todas as informações do seu investimento. Existem duas formas de solicitar a nota: • Aplicações realizadas via equipe de investimentos: a Nota de Aplicação é enviada por e-mail, automaticamente, em até 1 dia útil da aplicação. • Aplicações realizadas via aplicativo: o investidor poderá solicitar o envio da nota para a equipe de investimentos via chat ou telefone 0800 717 7003."
     },
     "112": {
-        "mongo_id": "6a010f3880dc5e1985ae14cd",
+        "mongo_id": "6a1cca8d47d754b1c31f8092",
         "title": "Consigo acessar o Agi Investimentos pelo computador?",
         "content": "Sim, basta acessar agibank.orama.com.br e fazer o seu login."
     },
     "113": {
-        "mongo_id": "6a010f3880dc5e1985ae14ce",
+        "mongo_id": "6a1cca8d47d754b1c31f8093",
         "title": "Como recebo o primeiro pagamento do meu benefício?",
         "content": "Você será informado pelo INSS de que passará a receber seu benefício aqui no Agi. Após essa comunicação, você precisa ir até a loja indicada na carta recebido e lebar um documento de identificação atualizado e com foto (RG, CPF, CNH, Passaporte ou RNE). Ao ser atendido por um de nossos consultores, escolha entre receber seu benefício por Cartão Magnético ou diretamente em conta corrente, com as vantagens de ser um cliente Agibank. Assim, você poderá sacar o valor do seu benefício nos caixas eletrônicos ou optar por realizar compras no débito. Mas lembre-se: se em 60 dias você não sacar seu benefício, o valor será devolvido ao INSS."
     },
     "114": {
-        "mongo_id": "6a010f3880dc5e1985ae14cf",
+        "mongo_id": "6a1cca8d47d754b1c31f8094",
         "title": "Somente o titular do benefício pode sacar os valores?",
         "content": "Não! Caso você não consiga ir até um uma de nossas lojas para sacar seu benefício, o seu Representante Legal (pai/mãe, pessoa que detêm a guarda judicial ou administrador provisório) poderá realizar o saque, desde que devidamente identificado por um documento oficial, atualizado e com foto. Caso você tenha um Procurador, ele deverá estar cadastrado no INSS para poder sacar seus valores, além de apresentar o documento informado no cadastro de procuradores recebido pelo banco do INSS."
     },
     "115": {
-        "mongo_id": "6a010f3880dc5e1985ae14d0",
+        "mongo_id": "6a1cca8d47d754b1c31f8095",
         "title": "Como solicito e como funciona o Cartão Magnético?",
         "content": "Ao ser informado pelo INSS de que passará a receber seu benefício conosco, compareça até a loja Agi Bank indicada na carta para a retirada do seu Cartão Magnético. Esse cartão permitirá que você saque os valores em caixas eletrônicos nos pontos de atendimento Agi Bank, Banco24Horas ou rede Saque e Pague. Além disso, ele também terá a função débito, permitindo que você realize compras em diversos pontos comerciais e subtraindo os valores diretamente de seu saldo."
     },
     "116": {
-        "mongo_id": "6a010f3880dc5e1985ae14d1",
+        "mongo_id": "6a1cca8d47d754b1c31f8096",
         "title": "Posso escolher receber meu benefício no Agi?",
         "content": "Claro, você pode escolher em qual banco deseja receber seu salário independente do local designado pelo INSS. Se você recebe em outro banco, aproveite e traga o seu benefício para o Agi sem custos adicionais. Para solicitar a transferência, vá até uma de nossas lojas levando um documento de identificação e peça ao consultor para realizar a alteração de seu domicílio bancário. Seu benefício será transferido em até 45 dias. Porém, lembre-se que o primeiro pagamento deve obrigatoriamente ser realizado no local indicado pela Carta de Concessão do benefício, que você receberá do INSS."
     },
     "117": {
-        "mongo_id": "6a010f3880dc5e1985ae14d2",
+        "mongo_id": "6a1cca8d47d754b1c31f8097",
         "title": "Como funciona a Prova de Vida e quando devo fazer?",
         "content": "A prova de vida, obrigação recorrentes para aposentados e pensionistas mudou em fevereiro de 2022. Ela deixou de ser presencial e passou a basear- se no cruzamento de outras bases de dados do governo. Agora, a ida ao banco será opcional e usada apenas como último recurso. O INSS terá acesso a dados como votação em eleições, registro de transferências de bens, vacinação, consultas pelo Sistema Único de Saúde, ou renovação de documentos como RG, carteira de motorista ou passaporte. Se alguma movimentação tiver acontecido nos dez meses posteriores ao aniversário do segurado, o INSS considerará o beneficiário vivo. Caso não haja registro de movimento nesse período, o próprio órgão fará outras formas de comprovação de vida, através de outros processos, que tem previsão de ser implementado gradualmente até 31 de dezembro de 2022."
     }

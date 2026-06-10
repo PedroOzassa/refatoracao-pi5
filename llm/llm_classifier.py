@@ -1,5 +1,7 @@
 import json
+from llm.gpt_service import chamar_gpt
 from llm.mistral_service import chamar_mistral
+import requests
 
 def parse_classification(response: str) -> bool:
     try:
@@ -45,6 +47,8 @@ CONTEXTO:
 PERGUNTA:
 {pergunta}
 """.strip()
-
-    raw_response = chamar_mistral(prompt)
+    try:
+        raw_response = chamar_mistral(prompt)
+    except (RuntimeError, requests.RequestException, ValueError, KeyError, IndexError):
+        raw_response = chamar_gpt(prompt)
     return parse_classification(raw_response)
