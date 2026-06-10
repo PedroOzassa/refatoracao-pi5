@@ -1,6 +1,6 @@
 from dataclasses import asdict
 from datetime import datetime
-from db.template import Document
+from domain.entities.document import Document
 
 import fitz  # pymupdf
 import re
@@ -145,9 +145,9 @@ def build_documents(pdf_path: str) -> list[Document]:
             doc = Document(
                 title=question,
                 content=answer,
-                date=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                date=datetime.now(),
                 source=pdf_path,
-                tag=[topic_name.lower()],
+                tag=topic_name.lower(),
             )
 
             documents.append(doc)

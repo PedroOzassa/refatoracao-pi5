@@ -6,7 +6,7 @@ from bson import ObjectId
 from pymongo import MongoClient
 from pymongo.errors import DuplicateKeyError, PyMongoError
 
-from db.template import Document
+from domain.entities.document import Document
 from domain.repositories.document_repository import DocumentRepository
 from infrastructure.config import get_settings
 

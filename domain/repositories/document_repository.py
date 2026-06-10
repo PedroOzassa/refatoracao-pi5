@@ -3,7 +3,7 @@
 from abc import ABC, abstractmethod
 from typing import Optional
 
-from db.template import Document
+from domain.entities.document import Document
 
 
 class DocumentRepository(ABC):
